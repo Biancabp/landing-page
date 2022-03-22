@@ -1,0 +1,152 @@
+@import "https://unpkg.com/swiper@7/swiper-bundle.min.css";
+@import "bootstrap";
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.text-gradient{
+    background: linear-gradient(90deg, #087592 0%, #81D0DF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 25px;
+}
+
+main p{
+    max-width: 350px;
+}
+
+.cadastro{
+    border: 3px;
+}
+
+.about{
+    background-color: #EFF8FF;
+}
+
+.integrantes{
+    background-color: #EFF8FF;  
+}
+
+.row{
+    margin: 0;
+}
+
+.integrantes .bx{
+    font-size: 80px;
+    color: #0F0B30;
+}
+
+.card{
+    overflow: hidden;
+    border: 0 !important;
+    border-radius: 20px !important;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    filter: drop-shadow(1px 1px 60px rgba(0, 0, 0, 0.3));
+  }
+  
+  .card-body{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding: 3rem;
+  }
+
+  .log-card{
+    background: linear-gradient(90deg, #087592 44.92%, rgba(129, 208, 223, 0.8) 100%);
+    border-radius: 50px;
+  }
+
+
+
+  .login{
+    background: #81D0DF38;
+  }
+  
+  .title{
+    margin-bottom: 2rem;
+  }
+  
+  .form-input{
+    position: relative;
+  }
+  
+  .form-input input{
+    width: 100%;
+    height: 45px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    box-shadow: none;
+    border: transparent;
+    border-radius: 50px;
+    outline: none;
+    background: #45A6B9;
+    color: white;
+  }
+  
+  .form-input span{
+    position: absolute;
+    top: 10px;
+    padding-left: 15px;
+    color: #45A6B9;
+  }
+  
+  .form-input input::placeholder{
+    color: rgba(255, 255, 255, 0.479);
+    padding-left: 0px;
+  }
+  
+  .form-input input:focus, .form-input input:valid{
+    border: 1px solid #45a6b967;
+  }
+  
+  .form-input input:focus::placeholder{
+    color: #454b69;
+  }
+  
+  .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before{
+    background-color: #007bff !important;
+    border: 0px;
+  }
+  
+  .form-box button[type="submit"]{
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 21px;
+    background: #0FA3CB;
+    color: #fff;
+    transition: 0.5s;
+    padding: 12px;
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+  
+  .form-box button[type="submit"]:hover{
+    background: #13aad4;
+  }
+  
+  .forget-link, .register-link{
+    color: #13aad4;
+    text-decoration: none;
+  }
+  
+  .forget-link:hover, .register-link:hover{
+    color: #13aad4;
+    text-decoration: none;
+  }
+  
+  .form-label select{
+    width: 100%;
+    height: 45px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    box-shadow: none;
+    border: transparent;
+    border-radius: 50px;
+    outline: none;
+    background: #45A6B9;
+    color: white;
+  }

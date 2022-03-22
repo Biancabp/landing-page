@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <!--Css-->
+    <link rel="stylesheet" href="/dist/css/style.css" />
+
+    <!--icones-->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body class="login">
+
+    <main class="bg-primary-light d-flex align-items-center justify-content-center">
+        <div class=" container mt-md-awe-160">
+            <div class="row px-3">
+                <div class="col-lg-10 col-xl-9 card flex-row mx-auto px-0 log-card">
+                    <div class="card-body">
+                        <span class=" text-neve-2 fz-6 ps-awe-16">BEM-VINDO AO INAV</span>
+                        <h4 class="title fz-38 text-white fw-semi-bold ps-awe-16">
+                            Crie uma nova conta<span class="text-primary-dark-1">.</span>
+                        </h4>
+                        <form class="form-box">
+                            <div class="d-flex">
+                                <div class="form-input pe-awe-12">
+                                    <span><i class="fa fa-envelope-o"></i></span>
+                                    <input type="name" name="" placeholder="nome" tabindex="10" required>
+                                </div>
+
+                                <div class="form-input ps-awe-12">
+                                    <span><i class="fa fa-envelope-o"></i></span>
+                                    <input type="email" name="" placeholder="matrícula" tabindex="10" required>
+                                </div>
+
+                            </div>
+                            <div class="d-flex">
+                                <div class="form-input pe-awe-12">
+                                    <span><i class="fa fa-envelope-o"></i></span>
+                                    <input type="password" name="" placeholder="senha" tabindex="10" required>
+                                </div>
+                                <div class="form-input ps-awe-12">
+                                    <span><i class="fa fa-key"></i></span>
+                                    <input type="password" name="" placeholder="confirmar senha" required>
+                                </div>
+                            </div>
+
+
+                            <div class="d-flex justify-content-between">
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Tipo de User: </label>
+                                    <select class="form-select form-select-lg mb-3"
+                                        aria-label=".form-select-lg example">
+                                        <option selected>Aluno</option>
+                                        <option value="1">Professor</option>
+                                        <option value="2">Administrador</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Função: </label>
+                                    <select class="form-select form-select-lg mb-3"
+                                        aria-label=".form-select-lg example">
+                                        <option selected>UX Designer</option>
+                                        <option value="1">DEV</option>
+                                        <option value="2">Administrador</option>
+                                        <option value="3">Copy</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Nível: </label>
+                                    <select class="form-select form-select-lg mb-3"
+                                        aria-label=".form-select-lg example">
+                                        <option selected>Sênior</option>
+                                        <option value="1">Junior</option>
+                                        <option value="2">Pleno</option>
+                                    </select>
+                                </div>
+                            </div>
+
+
+                            <div class="mb-3 d-flex justify-content-center">
+                                <button type="submit" class="btn fw-semi-bold">
+                                    Criar conta
+                                </button>
+                            </div>
+
+
+                            <div class="mb-2 text-white">
+                                Já possui uma conta?
+                                <a href="#" class="register-link">
+                                    Entre aqui
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="/dist/js/plugins/bootstrap.bundle.min.js"></script>
+    <script src="../dist/js/index.js"></script>
+</body>
+
+</html>

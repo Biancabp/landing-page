@@ -1,0 +1,17 @@
+{
+  "name": "site-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss/style.scss:dist/css/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "mdb-ui-kit": "^3.10.2",
+    "node-sass": "^7.0.1",
+    "sass-formatter": "^0.7.2"
+  }
+}

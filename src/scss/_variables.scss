@@ -1,0 +1,101 @@
+// color variables definition
+$black:               #222;
+$white:               #fff;
+$neve:               #627c83;
+$neve-2:             #FAFBFF;
+$dark:                #293145;
+$dark-2:                #1D2031;
+$gray:                #6E7275;
+$light-gray:          #736f82;
+$primary-extra-light: #F5F8FF;
+$primary-light-1:     #64D5F7;
+$primary-light-2:     #81D0DF38;
+$primary:             #087592;
+$primary-dark-1:      #233673;
+$primary-dark-2:      #01143C;
+
+
+
+$theme-colors: (
+  "black":                $black,
+  "white":                $white,
+  "neve":                 $neve,  
+  "neve-2":                 $neve-2, 
+  "dark":                 $dark,
+  "dark-2":               $dark-2,
+  "light":                $light-gray,
+  "gray":                 $gray,
+  "primary-extra-light":  $primary-extra-light,
+  "primary-light-1":      $primary-light-1,
+  "primary":              $primary,
+  "primary-dark-1":       $primary-dark-1,
+  "primary-dark-2":       $primary-dark-2,
+  "transparent": #fff0,
+) !default;
+
+// spacers variable definition
+$spacer: 1rem;
+$custom-spacers: (
+  "awe-6": $spacer * 0.5,
+  "awe-12": $spacer * 0.75,
+  "awe-16": $spacer,
+  "awe-18": $spacer * 1.125,
+  "awe-24": $spacer * 1.5,
+  "awe-28": $spacer * 1.75,
+  "awe-32": $spacer * 2,
+  "awe-40": $spacer * 2.5,
+  "awe-48": $spacer * 3,
+  "awe-56": $spacer * 3.5,
+  "awe-64": $spacer * 4,
+  "awe-80": $spacer * 5,
+  "awe-96": $spacer * 6,
+  "awe-108": $spacer * 6.75,
+  "awe-128": $spacer * 8,
+  "awe-148": $spacer * 9.25,
+  "awe-160": $spacer * 10,
+  "awe-200": $spacer * 12.5,
+  "awe-224": $spacer * 14,
+  "awe-400": $spacer * 25,
+) !default;
+
+//Variáveis das fontes
+$font-family-sans-serif: "Nunito", sans-serif;
+$font-sizes: (
+  12: 12px,
+  14: 14px,
+  16: 16px,
+  18: 18px,
+  20: 20px,
+  24: 24px,
+  28: 28px,
+  32: 32px,
+  38: 38px,
+  48: 48px,
+  56: 56px,
+  96: 96px,
+  130: 130px,
+);
+
+$font-weight-thin:        100;
+$font-weight-extra-light: 200;
+$font-weight-light:       300;
+$font-weight-regular:     400;
+$font-weight-medium:      500;
+$font-weight-semi-bold:   600;
+$font-weight-bold:        700;
+$font-weight-extra-bold:  800;
+$font-weight-black:       900;
+
+//buttons
+$btn-box-shadow:  0;
+$btn-focus-width: 0;
+$btn-padding-y:               1em;
+$btn-padding-x:               2em;
+
+$progress-height:                   1.8rem;
+$progress-bar-color:                $white;
+$progress-bar-bg:                   #19C59D;
+$progress-bg:                       #D9DCE5;
+
+$input-btn-padding-y:         .1rem;
+$input-btn-padding-x:         .1rem;
